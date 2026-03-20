@@ -1,0 +1,26 @@
+{
+	"id": "wakeonlan-dev-module",
+	"name": "wakeonlan-dev-module",
+	"shortname": "WOL-Dev",
+	"description": "Wake-on-LAN (WOL) - Send magic packets to wake devices on your network (Fixed)",
+	"version": "2.1.0",
+	"license": "MIT",
+	"repository": "",
+	"bugs": "",
+	"maintainers": [
+		{
+			"name": "Developer"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.13.1",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "Generic",
+	"products": ["Wake-on-LAN"],
+	"keywords": ["Protocol", "Generic"]
+}
+
